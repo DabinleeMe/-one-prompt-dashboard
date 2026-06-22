@@ -1,37 +1,17 @@
-# 📊 One-Prompt Dashboard
+# One-Prompt Dashboard
 
-> An interactive sales dashboard built from Zenith sales data.
-> Change a filter and every KPI and chart updates live.
+An interactive sales dashboard built from Zenith sales data with a single prompt.
 
-## 🤔 Why I made this
+**[→ View the dashboard](https://dabinleeme.github.io/-one-prompt-dashboard/zenith_dashboard.html)**
 
-Just curious, so I gave it a shot.
+## Why
 
-I only ran one prompt and didn't do any fine-tuning, so it might not be
-a perfect dashboard — but honestly it's kind of amazing that just a few
-lines of a prompt produced this.
+Just curious, so I gave it a shot. I only ran one prompt and didn't fine-tune
+anything, so it's not perfect — but it's surprising what a few lines produced.
+I used the same data I'd visualized by hand in Tableau last semester. Seeing it
+come together this easily was a little deflating, but being able to work this
+much faster... maybe that's a good thing.
 
-I used the same data I'd visualized by hand in Tableau last semester...
-and seeing it come together this easily was a little deflating, not gonna
-lie. But the fact that the work can go this much faster... maybe that's
-a good thing. Maybe.
+## Run it
 
-## ✨ What's inside
-
-- KPI cards up top (total revenue · profit · margin · units · customers · YoY growth)
-- 6 filters (date range · continent · product category · market tier · customer segment)
-- 5 charts (monthly trend · by category · top 10 countries · market tier · customer segment)
-
-## 🚀 How to view it
-
-Just open `zenith_dashboard.html` in your browser.
-(The chart library loads from a CDN, so you'll need an internet connection.)
-
-## 🛠 How it was made
-
-- Handed Claude an Excel file and said "build me a dashboard"
-- HTML + Chart.js, almost no dependencies
-- Data is a fictional Zenith electronics sales dataset
-
----
-*Time spent: about one cup of coffee* ☕
+Open `zenith_dashboard.html` in your browser, or use the link above.
